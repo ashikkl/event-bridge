@@ -4,9 +4,9 @@ import * as React from "react";
 import { Divider } from "@mui/material";
 import { FaGoogle } from "react-icons/fa";
 
-export default function Signin() {
+export default function Signup() {
   return (
-    <>
+    <><title>EventBridge - Sign Up</title>
       <div className="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-md space-y-8">
           <div>
@@ -65,13 +65,13 @@ export default function Signin() {
             }}
             style={{ borderColor: "white", opacity: ".25" }}
           >
-            or continue with
+            or
           </Divider>
           <div>
             <button className="group relative flex w-full items-center justify-center rounded-md bg-gray-300 py-2 px-3 text-sm font-semibold text-gray-900 hover:bg-gray-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600">
               <FaGoogle  className="mr-2"/>
               <span className="absolute inset-y-0 left-0 flex items-center pl-3"></span>
-              Sign up with Google
+              Continue with Google
             </button>
           </div>
           <div className="text-sm group relative flex w-full justify-center">
